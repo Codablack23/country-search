@@ -185,7 +185,7 @@ function manipulateCountry(country){
          sub_region:country.subregion,
          img:country.flags.svg,
          population:country.population,
-         capital:country.capital[0],
+         capital:country.capital?country.capital[0]:"",
          borders:country.borders?country.borders:[],
          currencies:currencies.map(currency=>`${currency} `).toString(),
          languages:languages.map(lang=>`${lang} `).toString(),
