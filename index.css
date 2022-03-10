@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.main-container{
+    max-width: 100%;
+    min-height: 100vh;
+}
+.light-theme{
+    background: hsl(0, 0%, 98%);
+}
+.dark-theme{
+    background: hsl(207, 26%, 17%);
+    color:  hsl(0, 0%, 100%);
+}
+
+h1,h2,h4,h5,h6,h3{
+    font-family: 'Nunito Sans', sans-serif;
+}
+h4.title{
+    font-weight: 800;
+}
+
+header .btn span{
+    font-weight: 600;
+}
+header,.search-area{
+    padding: 1% 7%;
+    align-items: center;
+}
+.search,select{
+    border: none;
+}
+.search{
+    min-width: 75%;
+    outline: none;
+    background: none;
+}
+.search-container{
+    min-width: 25vw;
+
+}
+select{
+    min-width: 40vh;
+    outline: none;
+    padding: 3% 10%;
+    font-weight: 600;
+}
+.search:focus, select:focus{
+    outline: none;
+}
+.search-container,select,.country{
+  border-radius: 7px;
+}
+option{
+    border: none;
+    border-radius: 5px;
+}
+
+.flag-container{
+    width: 100%;
+    min-height: 25vh;
+    border-radius: 7px 7px 0 0;
+}
+.flag-img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 7px 7px 0 0;
+}
+.all-countries{
+    width: 80%;
+    margin:2% auto;
+}
+.country-details{
+    padding-bottom: 10%;
+}
+.country-details p{
+    margin-block-end: 2px;
+    font-size: 15px;
+}
+.country-details p b,b{
+    font-weight: 600;
+}
+.country-details h4, .detail h4{
+    margin-block-end: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.country{
+    min-height: 50vh;
+    border-radius: 7px;
+}
+
+.selected-country-detail{
+    min-height: 80vh;
+   width: 85%;
+   margin: auto;
+}
+.selected-img-container{
+    width: 100%;
+    padding: 2%;
+}
+.detail{
+    padding-top: 4%;
+    padding-left: 10%;
+}
+.detail h4{
+    margin-block-end: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.selected-img{
+    width: 100%;
+    height:53vh ;
+    object-fit: cover;
+}
+.back-btn{
+  min-width: 120px;
+}
+.borders-list{
+    width: 63%;
+    margin: auto 3%;
+    padding: auto 5% ;
+}
+.borders-list .btn{
+  margin-right: 2%;
+  padding: auto 4%;
+  min-width: 80px;
+}
+
+.shown{
+    display: none;
+}
